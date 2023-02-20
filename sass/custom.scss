@@ -52,9 +52,7 @@ header {
     margin-bottom: 7rem;
   }
  
-  .navbarSize{
-    max-width: 100% !important;
-  }
+  
   .navbar{
     background-color: #fff;
     
@@ -232,10 +230,6 @@ header {
     background-color: white!important;
     box-shadow: none!important;
     color: black!important;
-}
-
-.accordion-button::after {
-    background-image: url("/recursos/images/icon-arrow.svg")!important;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -534,7 +528,7 @@ $custom-theme-colors: (
   "darkblue": #252A44
 );
 
-$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+// $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
 //Import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
